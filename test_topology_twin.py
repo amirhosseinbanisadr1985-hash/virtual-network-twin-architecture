@@ -1,7 +1,6 @@
-"""Run with: python -m unittest discover -s tests -v"""
+"""Run from the repository root: python -m unittest discover -v"""
 import unittest
-from examples.topology_twin import create_twin, set_link, topology_accuracy, validate_matrix
-
+from topology_twin import create_twin, set_link, topology_accuracy, validate_matrix
 
 class TestTopologyTwin(unittest.TestCase):
     def setUp(self):
